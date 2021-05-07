@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 13px;
+}
+
+header {
+    text-align: center;
+}
+
+header>img {
+    width: 100%;
+    height: 200px;
+}
+
+nav {
+    background-color: azure;
+}
+
+nav a {
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.headshot {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+.mypic {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+}
+
+.pagecontent {
+    font-size: 1.5em;
+    width: 70%;
+    /* border: 3px solid #000000; */
+    margin: auto;
+}
+
+.pagecontent>article>p {
+    color: darkolivegreen;
+    text-align: justify;
+}
+
+.contact {
+    border: 2px solid rgb(61, 58, 58);
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2%;
+}
