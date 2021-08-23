@@ -1,0 +1,52 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+/* image header styles */
+header > img{
+    width: 100%;
+    height: 200px;
+}
+/* add a background colour to top navigation */
+nav { 
+    background-color: aquamarine;
+    text-align: center; 
+}
+
+/* add a background colour to href */
+nav a {
+color:black;
+font-family: Impact; 
+}
+
+nav > a:hover {
+color:chartreuse;
+}
+
+/*Profile image */
+.headshot {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+.mypic {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+/*page content*/
+.pagecontent {
+    font-size: 1rem;
+    margin: auto;
+    width: 70%;
+    border: 3px solid black;
+    margin-top: 5%;
+}
+.pagecontent > article > p {
+    padding: 2px;
+    font-size: 2em;
+   margin:5%;
+   color:blueviolet;
+}
